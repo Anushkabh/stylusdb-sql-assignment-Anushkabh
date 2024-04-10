@@ -4,7 +4,8 @@
   "description": "A minimal SQL based DB based on CSV files. For educational purposes only.",
   "main": "./src/index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "tests"
   },
   "scripts": {
     "test": "jest",
@@ -29,7 +30,8 @@
     "test:19": "jest --testPathPattern=./tests/step-19",
     "test:20": "jest --testPathPattern=./tests/step-20",
     "test-verbose": "jest --verbose",
-    "server": "node ./src/server.js"
+    "server": "node ./src/server.js",
+    "dev": "node ./src/dev.js"
   },
   "bin": {
     "stylusdb-cli": "node ./src/cli.js"
